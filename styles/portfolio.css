@@ -1,0 +1,90 @@
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif; /* Proper font-family declaration */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styling for header */
+header {
+    background-color: #333; /* Valid hex color */
+    color: #fff; /* Valid hex color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #007BFF; /* Valid hex color */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #0056b3; /* Valid hex color */
+}
+
+/* Styling for the about section */
+#about {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#about h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Styling for the projects section */
+#projects {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.project a {
+    color: #007BFF; /* Valid hex color */
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: #0056b3; /* Valid hex color */
+}
+
+/* Styling for the contact section */
+#contact {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Styling for footer */
+footer {
+    background-color: #333; /* Valid hex color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
