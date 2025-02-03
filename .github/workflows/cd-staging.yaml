@@ -1,0 +1,26 @@
+name: wf-cd-staging
+on:
+  push:
+    branches:
+      - "release/**"
+
+jobs:
+  cd-staging-job:
+    runs-on: ubuntu-latest
+    environment:
+      name: staging-env
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Application
+        run: npx parcel build "./src/index.html" --dist-dir "./dist" --public-url "./"
+
+      - name: Deploy to Staging
+        run: |
+          echo "Deploying to staging environment..."
+          # Add deployment command here, e.g., AWS S3, GitHub Pages, or another hosting service
