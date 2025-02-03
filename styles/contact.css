@@ -1,0 +1,95 @@
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif; /* Proper font-family declaration */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styling for header */
+header {
+    background-color: #333; /* Valid hex color */
+    color: #fff; /* Valid hex color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the main section */
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Styling for headings inside sections */
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif; /* Ensure font-family is specified with a fallback */
+}
+
+/* Styling for the form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50; /* Valid hex color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049; /* Valid hex color */
+}
+
+/* Styling for footer */
+footer {
+    background-color: #333; /* Valid hex color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Styling for links */
+a {
+    text-decoration: none;
+    color: #007BFF; /* Valid hex color */
+}
+
+a:hover {
+    color: #0056b3; /* Valid hex color */
+}
+
+/* Ensure no empty block or duplicate selectors */
+section ul {
+    padding-left: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+/* Styling for the address section */
+section h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
